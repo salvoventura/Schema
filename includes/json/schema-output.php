@@ -228,7 +228,7 @@ function schema_wp_get_schema_json_prepare( $post_id = null ) {
 	// Set post ID
 	If ( ! isset($post_id) ) $post_id = $post->ID;
 	
-	$jason = array();
+	$json = array();
 	
 	
 	// Get post content
